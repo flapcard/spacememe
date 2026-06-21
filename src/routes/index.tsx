@@ -65,7 +65,8 @@ function Home() {
             The memecoin engineered for orbit. Inspired by the most ambitious rocket program on Earth — built for the most degenerate community in the universe.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="#launchpad" className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue">Launch on Launchpad</a>
+            <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue">Buy on flap.sh</a>
+            <a href="#launchpad" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Claim $SPCXB</a>
             <a href="#about" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Read Mission Brief</a>
           </div>
         </div>
