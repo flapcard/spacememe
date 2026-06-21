@@ -42,8 +42,9 @@ function Home() {
             <a href="#faq" className="hover:text-blue transition">Q&amp;A</a>
           </div>
           <div className="flex items-center gap-2">
-            <a href="https://x.com" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Twitter</a>
-            <a href="https://t.me" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Telegram</a>
+            <a href="https://x.com/spacememebsc" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Twitter</a>
+            <a href="https://t.me/spacexmeme" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Telegram</a>
+            <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition">flap.sh</a>
           </div>
         </nav>
       </header>
