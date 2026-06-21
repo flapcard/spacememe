@@ -44,7 +44,7 @@ function Home() {
           <div className="flex items-center gap-2">
             <a href="https://x.com/spacememebsc" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Twitter</a>
             <a href="https://t.me/spacexmeme" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest border border-border hover:border-blue hover:text-blue transition">Telegram</a>
-            <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition">flap.sh</a>
+            <a href="https://flap.sh/bnb/0x1be2e66911e5fe97a638d20bcce3d2bc61857777" target="_blank" rel="noreferrer" className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition">flap.sh</a>
           </div>
         </nav>
       </header>
@@ -65,7 +65,7 @@ function Home() {
             The memecoin engineered for orbit. Inspired by the most ambitious rocket program on Earth — built for the most degenerate community in the universe.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue">Buy on flap.sh</a>
+            <a href="https://flap.sh/bnb/0x1be2e66911e5fe97a638d20bcce3d2bc61857777" target="_blank" rel="noreferrer" className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue">Buy on flap.sh</a>
             <a href="#launchpad" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Claim $SPCXB</a>
             <a href="#about" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Read Mission Brief</a>
           </div>
@@ -176,7 +176,7 @@ function Home() {
         <h2 className="font-display text-6xl md:text-9xl glow-blue text-blue mb-6">TO THE MOON</h2>
         <p className="text-muted-foreground tracking-[0.3em] text-xs mb-10">SPACE MEME · $SPCMEME · T-MINUS ZERO</p>
         <div className="flex justify-center gap-3 flex-wrap px-6">
-          <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="bg-blue text-white border border-blue px-8 py-4 font-display tracking-widest text-sm hover:bg-white hover:text-black hover:border-white transition">Buy on flap.sh →</a>
+          <a href="https://flap.sh/bnb/0x1be2e66911e5fe97a638d20bcce3d2bc61857777" target="_blank" rel="noreferrer" className="bg-blue text-white border border-blue px-8 py-4 font-display tracking-widest text-sm hover:bg-white hover:text-black hover:border-white transition">Buy on flap.sh →</a>
           <a href="https://x.com/spacememebsc" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Twitter →</a>
           <a href="https://t.me/spacexmeme" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Telegram →</a>
         </div>
