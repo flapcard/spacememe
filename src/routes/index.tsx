@@ -176,8 +176,9 @@ function Home() {
         <h2 className="font-display text-6xl md:text-9xl glow-blue text-blue mb-6">TO THE MOON</h2>
         <p className="text-muted-foreground tracking-[0.3em] text-xs mb-10">SPACE MEME · $SPCMEME · T-MINUS ZERO</p>
         <div className="flex justify-center gap-3 flex-wrap px-6">
-          <a href="https://x.com" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Twitter →</a>
-          <a href="https://t.me" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Telegram →</a>
+          <a href="https://flap.sh/" target="_blank" rel="noreferrer" className="bg-blue text-white border border-blue px-8 py-4 font-display tracking-widest text-sm hover:bg-white hover:text-black hover:border-white transition">Buy on flap.sh →</a>
+          <a href="https://x.com/spacememebsc" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Twitter →</a>
+          <a href="https://t.me/spacexmeme" target="_blank" rel="noreferrer" className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition">Telegram →</a>
         </div>
       </section>
 
