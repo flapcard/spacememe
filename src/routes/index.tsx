@@ -85,7 +85,7 @@ function Home() {
               Telegram
             </a>
             <a
-              href="https://four.meme"
+            href="https://four.meme/en/token/0xae2c73371fca4a183ba3b55b51229ead820d3ec3"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition"
