@@ -12,12 +12,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "$SPCMEME — the meme coin engineered for orbit. Fair launch on launchpad. Every buy earns $SPCXB rewards. 1,000,000,000 supply.",
+          "$SPCMEME — the meme coin engineered for orbit. Fair launch on launchpad. Earn dividends by holding. 1,000,000,000 supply.",
       },
       { property: "og:title", content: "SPACE MEME $SPCMEME — To The Moon" },
       {
         property: "og:description",
-        content: "Fair launch memecoin inspired by SpaceX. Buy $SPCMEME, claim $SPCXB on launchpad.",
+        content: "Fair launch memecoin inspired by SpaceX. Buy $SPCMEME, earn dividends by holding.",
       },
     ],
   }),
@@ -34,8 +34,8 @@ const FAQ = [
     a: "100% of the supply is seeded on the launchpad at T-0. No insiders, no snipers — same liftoff for everyone.",
   },
   {
-    q: "What is $SPCXB?",
-    a: "$SPCXB is the booster reward. Every buy of $SPCMEME automatically allocates $SPCXB to your wallet. Claim it anytime on the launchpad.",
+    q: "How do I earn dividends?",
+    a: "We replaced the $SPCXB booster with a Dividend model. Simply hold $SPCMEME in your wallet to earn dividends automatically.",
   },
   { q: "What is the total supply?", a: "1,000,000,000 $SPCMEME. Fixed. No mint function. No rug hatch." },
   { q: "Where do we go?", a: "The Moon. Then Mars. Then the orderbook on every CEX." },
@@ -61,7 +61,7 @@ function Home() {
               Tokenomics
             </a>
             <a href="#booster" className="hover:text-blue transition">
-              $SPCXB
+              Dividend
             </a>
             <a href="#faq" className="hover:text-blue transition">
               Q&amp;A
@@ -85,12 +85,12 @@ function Home() {
               Telegram
             </a>
             <a
-              href="https://flap.sh/"
+              href="https://four.meme"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition"
             >
-              flap.sh
+              four.meme
             </a>
           </div>
         </nav>
@@ -122,18 +122,18 @@ function Home() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://flap.sh/"
+              href="https://four.meme"
               target="_blank"
               rel="noreferrer"
               className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue"
             >
-              Buy on flap.sh
+              Buy on four.meme
             </a>
             <a
-              href="https://flap.sh/bnb/0x1be2e66911e5fe97a638d20bcce3d2bc61857777/taxinfo"
+              href="#booster"
               className="border border-white/40 px-8 py-4 font-display tracking-widest text-sm hover:border-blue hover:text-blue transition"
             >
-              Claim $SPCXB
+              Earn Dividend
             </a>
             <a
               href="#about"
@@ -154,7 +154,7 @@ function Home() {
                 <span className="text-blue">●</span>
                 <span>FAIR LAUNCH</span>
                 <span className="text-blue">●</span>
-                <span>EVERY BUY → $SPCXB BOOSTER</span>
+                <span>EVERY HOLD → EARN DIVIDEND</span>
                 <span className="text-blue">●</span>
                 <span>TO THE MOON</span>
                 <span className="text-blue">●</span>
@@ -223,13 +223,13 @@ function Home() {
             <Spec k="Launch" v="Fair · Launchpad" />
             <Spec k="Tax" v="0 / 0" />
             <Spec k="Liquidity" v="Locked" />
-            <Spec k="Booster" v="$SPCXB Rewards" highlight />
+            <Spec k="Booster" v="Earn Dividend" highlight />
             <Spec k="Destination" v="The Moon 🌑" />
           </div>
         </div>
       </section>
 
-      {/* BOOSTER / SPCXB */}
+      {/* BOOSTER / DIVIDEND */}
       <section id="booster" className="relative py-32 overflow-hidden border-t border-border">
         <img
           src={moon}
@@ -242,39 +242,40 @@ function Home() {
         />
         <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
           <div>
-            <p className="text-xs tracking-[0.4em] text-blue mb-4 font-mono">03 / BOOSTER PROGRAM</p>
+            <p className="text-xs tracking-[0.4em] text-blue mb-4 font-mono">03 / DIVIDEND PROGRAM</p>
             <h2 className="text-5xl md:text-6xl mb-8">
-              Every Buy
+              Hold
               <br />
-              Earns <span className="text-blue glow-blue">$SPCXB</span>.
+              Earn <span className="text-blue glow-blue">Dividend</span>.
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              For every $SPCMEME purchase, a proportional amount of $SPCXB — the Booster token — is allocated to your
-              wallet automatically.
+              Simply hold $SPCMEME in your wallet to earn dividends automatically. The longer you hold, the more you earn.
             </p>
             <p className="text-muted-foreground mb-10">
-              Claim your accumulated $SPCXB anytime directly on the launchpad. Hold longer, boost harder.
+              No claims, no launchpad steps — dividends are distributed to holders based on their $SPCMEME balance.
             </p>
             <a
               id="launchpad"
-              href="#"
+              href="https://four.meme"
+              target="_blank"
+              rel="noreferrer"
               className="inline-block bg-white text-black px-8 py-4 font-display tracking-widest text-sm hover:bg-blue hover:text-white transition"
             >
-              Claim $SPCXB on Launchpad
+              Buy $SPCMEME on four.meme
             </a>
           </div>
           <div className="grid gap-4">
             {[
-              { s: "T-00:01", t: "Buy $SPCMEME", d: "Place an order on the launchpad. Fair price for everyone." },
+              { s: "T-00:01", t: "Buy $SPCMEME", d: "Place an order on four.meme. Fair price for everyone." },
               {
                 s: "T+00:02",
-                t: "Earn $SPCXB",
-                d: "Booster tokens auto-allocate to your wallet, proportional to your buy.",
+                t: "Hold $SPCMEME",
+                d: "Keep $SPCMEME in your wallet to qualify for dividend distributions.",
               },
               {
                 s: "T+∞",
-                t: "Claim Anytime",
-                d: "Head to the launchpad and claim your $SPCXB rewards on your schedule.",
+                t: "Earn Dividend",
+                d: "Dividends accrue automatically the longer you hold — passive moon income.",
               },
             ].map((step) => (
               <div key={step.s} className="border border-border p-6 hover:border-blue transition group bg-card/40">
@@ -320,12 +321,12 @@ function Home() {
         <p className="text-muted-foreground tracking-[0.3em] text-xs mb-10">SPACE MEME · $SPCMEME · T-MINUS ZERO</p>
         <div className="flex justify-center gap-3 flex-wrap px-6">
           <a
-            href="https://flap.sh/"
+            href="https://four.meme"
             target="_blank"
             rel="noreferrer"
             className="bg-blue text-white border border-blue px-8 py-4 font-display tracking-widest text-sm hover:bg-white hover:text-black hover:border-white transition"
           >
-            Buy on flap.sh →
+            Buy on four.meme →
           </a>
           <a
             href="https://x.com/spacememebsc"
