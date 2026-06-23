@@ -12,12 +12,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "$SPCMEME — the meme coin engineered for orbit. Fair launch on launchpad. Every buy earns $SPCXB rewards. 1,000,000,000 supply.",
+          "$SPCMEME — the meme coin engineered for orbit. Fair launch on launchpad. Earn dividends by holding. 1,000,000,000 supply.",
       },
       { property: "og:title", content: "SPACE MEME $SPCMEME — To The Moon" },
       {
         property: "og:description",
-        content: "Fair launch memecoin inspired by SpaceX. Buy $SPCMEME, claim $SPCXB on launchpad.",
+        content: "Fair launch memecoin inspired by SpaceX. Buy $SPCMEME, earn dividends by holding.",
       },
     ],
   }),
@@ -34,8 +34,8 @@ const FAQ = [
     a: "100% of the supply is seeded on the launchpad at T-0. No insiders, no snipers — same liftoff for everyone.",
   },
   {
-    q: "What is $SPCXB?",
-    a: "$SPCXB is replaced by our new Dividend model. Simply hold $SPCMEME to earn dividends automatically.",
+    q: "How do I earn dividends?",
+    a: "We replaced the $SPCXB booster with a Dividend model. Simply hold $SPCMEME in your wallet to earn dividends automatically.",
   },
   { q: "What is the total supply?", a: "1,000,000,000 $SPCMEME. Fixed. No mint function. No rug hatch." },
   { q: "Where do we go?", a: "The Moon. Then Mars. Then the orderbook on every CEX." },
@@ -61,7 +61,7 @@ function Home() {
               Tokenomics
             </a>
             <a href="#booster" className="hover:text-blue transition">
-              $SPCXB
+              Dividend
             </a>
             <a href="#faq" className="hover:text-blue transition">
               Q&amp;A
