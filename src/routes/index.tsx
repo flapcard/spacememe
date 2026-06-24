@@ -85,7 +85,7 @@ function Home() {
               Telegram
             </a>
             <a
-            href="https://four.meme/en/token/0xae2c73371fca4a183ba3b55b51229ead820d3ec3"
+            href="https://four.meme/"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-xs uppercase tracking-widest bg-blue text-white border border-blue hover:bg-white hover:text-black hover:border-white transition"
@@ -122,7 +122,7 @@ function Home() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://four.meme/en/token/0xae2c73371fca4a183ba3b55b51229ead820d3ec3"
+              href="https://four.meme/"
               target="_blank"
               rel="noreferrer"
               className="bg-blue text-white px-8 py-4 font-display tracking-widest text-sm hover:opacity-90 transition ring-blue"
@@ -141,6 +141,17 @@ function Home() {
             >
               Read Mission Brief
             </a>
+          </div>
+          <div className="mt-6 inline-flex items-center gap-3 border border-border bg-black/60 px-4 py-2 font-mono text-xs tracking-widest">
+            <span className="text-muted-foreground">CA:</span>
+            <span className="text-white">4444</span>
+            <button
+              type="button"
+              onClick={() => navigator.clipboard.writeText("4444")}
+              className="text-blue hover:text-white transition uppercase tracking-widest"
+            >
+              Copy
+            </button>
           </div>
         </div>
         {/* ticker */}
@@ -256,7 +267,7 @@ function Home() {
             </p>
             <a
               id="launchpad"
-              href="https://four.meme/en/token/0xae2c73371fca4a183ba3b55b51229ead820d3ec3"
+              href="https://four.meme/"
               target="_blank"
               rel="noreferrer"
               className="inline-block bg-white text-black px-8 py-4 font-display tracking-widest text-sm hover:bg-blue hover:text-white transition"
@@ -321,7 +332,7 @@ function Home() {
         <p className="text-muted-foreground tracking-[0.3em] text-xs mb-10">SPACE MEME · $SPCMEME · T-MINUS ZERO</p>
         <div className="flex justify-center gap-3 flex-wrap px-6">
           <a
-            href="https://four.meme/en/token/0xae2c73371fca4a183ba3b55b51229ead820d3ec3"
+            href="https://four.meme/"
             target="_blank"
             rel="noreferrer"
             className="bg-blue text-white border border-blue px-8 py-4 font-display tracking-widest text-sm hover:bg-white hover:text-black hover:border-white transition"
