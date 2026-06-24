@@ -142,6 +142,17 @@ function Home() {
               Read Mission Brief
             </a>
           </div>
+          <div className="mt-6 inline-flex items-center gap-3 border border-border bg-black/60 px-4 py-2 font-mono text-xs tracking-widest">
+            <span className="text-muted-foreground">CA:</span>
+            <span className="text-white">4444</span>
+            <button
+              type="button"
+              onClick={() => navigator.clipboard.writeText("4444")}
+              className="text-blue hover:text-white transition uppercase tracking-widest"
+            >
+              Copy
+            </button>
+          </div>
         </div>
         {/* ticker */}
         <div className="relative border-y border-border bg-black/80 py-3 overflow-hidden">
